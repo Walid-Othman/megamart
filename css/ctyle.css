@@ -1,0 +1,298 @@
+
+/* link for google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* gental style */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container{
+    width: 1440px;
+    height: 3035px;
+    margin: auto;
+}
+
+p{
+    font-size: 14px;
+    color: #666666;
+}
+.sectionp1{
+    padding: 0 80px;
+}
+/* headr starts here */
+header{
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+}
+header .left p{
+    width: 214px;
+    height: 14px;
+}
+header .right{
+    display: flex;
+    align-items: center;
+margin-right: -50px;
+}
+header .right .icon{
+    display: flex;
+    align-items: center;
+    width: 136px;
+    height: 18px;
+ padding: 0 6px;
+}
+header .right .icon:nth-child(1),
+header .right .icon:nth-child(2){
+border-right: 1px solid #D9D9D9 ;
+
+}
+header .right .icon img{
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+/* headr ends here */
+
+/* navbar starts here */
+
+nav img{
+    width: 24px;
+    height: 24px;
+    padding-right: 8px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    background-color: #ffffff;
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+}
+nav .left{
+    display: flex;
+    align-items: center;
+}
+nav .left img{
+background-color: #F3F9FB;
+margin-right: 10px;
+}
+nav .left h1{
+width: 138px;
+height: 28px;
+color: #008ECC;
+}
+
+nav .center{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+nav .center input{
+width: 507px;
+height: 48px;
+background-color: #F3F9FB;
+outline: none;
+border: none;
+border-radius: 10px;
+padding-left: 40px;
+}
+nav .center input::placeholder{
+    width: 247px;
+    height: 18px;
+    color:#666666 ;
+
+}
+nav .center .search-img{
+ width: 18px;
+ height: 18px;
+ margin-right: -35px;
+ z-index: 1;
+}
+
+nav .center .list-img{
+    margin-left: -30px;
+}
+
+nav .right{
+    display: flex;
+    align-items: center;
+}
+nav .right h4 {
+    font-size: 14px;
+    color: #666666;
+}
+nav .right .partLeft{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    border-right: 1px solid #D9D9D9;
+    padding-right: 20px;
+}
+nav .right .partRight{
+    display: flex;
+    align-items: center;
+}
+
+
+/* navbar ends here */
+
+/* drob-down starts here */
+.dropdown{
+    height: 69px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #D9D9D9;
+}
+.dropdown button{
+    height: 36px;
+    border-radius: 14px;
+    color: #222222;
+    background-color: #F3F9FB;
+    transition: all 0.3s ease;
+     padding:0 14px;
+     margin-right: 26px;
+     border: none;
+     outline: none;
+     cursor: pointer;
+}
+.dropdown button i{
+    margin-left: 5px;
+}
+
+
+button.active,
+.dropdown button:hover{
+    background-color: #008ECC;
+    color: #ffffff;
+}
+
+/* drob-down ends here */
+
+/* hero section starts here */
+.hero-section{
+    background-image: url("../img/hero-section-photo/background.png");
+    width: 1201px;
+    height: 316px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+}
+.hero-section .left .data{
+    width: 574px;
+    height: 156px;
+}
+.hero-section .left .data h4{
+    width: 464px;
+    height: 30px;
+    color: #ffffff;
+    font-size: 20px;
+ font-family: "Open Sans", sans-serif;
+ margin-bottom: 15px;
+
+}
+.hero-section .left{
+    position: relative;
+}
+
+.hero-section .left .data h1{
+    width: 574px;
+    height: 56px;
+    color: #ffffff;
+    font-size: 38px;
+    /* font-weight: bold; */
+      font-family: "Open Sans", sans-serif;
+      margin-bottom: 15px;
+}
+.hero-section .left .data h5{
+    width: 202px;
+    height: 30px;
+    color: #ffffff;
+     font-family: "Open Sans", sans-serif;
+     font-size: 18px;
+}
+
+.hero-section .left .lessthen {
+    position: absolute;
+    left: -124px;
+    top: 52px;
+    width: 86px;
+    height: 86px;
+}
+.hero-section .left .doots{
+    position: absolute;
+    bottom: -35px;
+}
+.hero-section .right{
+    position: relative;
+}
+.hero-section .right .mask{
+    position: absolute;
+    top: -158px;
+    right: -80px;
+ 
+}
+
+.hero-section .right .hour {
+    position: absolute;
+    z-index: 1;
+    right: 72px;
+    top: -120px;
+    width: 268px;
+    height: 270px;
+}
+.hero-section .right .morethan {
+    position: absolute;
+    right: -125px;
+    top: -20px;
+}
+/* hero section ends here */
+
+/* section one starts here */
+/* section one ends here */
+
+/* section two starts here */
+/* section two ends here */
+
+/* section three starts here */
+/* section three ends here */
+
+/* section four starts here */
+/* section four ends here */
+
+/* footer starts here */
+/* footer ends here */
+
+
+/* media starts here */
+
+@media(max-width:1150px){}
+
+
+@media(max-width:799px){}
+
+
+@media(max-width:662px){}
+
+
+@media(max-width:477px){}
+
+
+
+/* media ends here */
