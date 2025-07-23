@@ -22,7 +22,7 @@ a {
 
 .container {
     width: 1440px;
-    height: 3035px;
+    /* height: 3035px; */
     margin: auto;
 }
 
@@ -765,7 +765,6 @@ footer ul li {
 footer .contant {
     display: flex;
     align-items: start;
-    /* justify-content: space-between; */
     flex-wrap: wrap;
 
 }
@@ -843,6 +842,9 @@ footer .mask {
     right: 0;
 }
 
+.center-right{
+    display: flex;
+}
 
 
 /* footer ends here */
@@ -850,7 +852,7 @@ footer .mask {
 
 /* media starts here */
 @media(max-width:1400px) {
-    
+
 }
 
 
