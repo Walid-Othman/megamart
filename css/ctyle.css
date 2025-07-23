@@ -205,6 +205,10 @@ button.active,
     color: #ffffff;
 }
 
+  .part-two .dropdown{
+    display: none;
+  }
+
 /* drob-down ends here */
 
 /* hero section starts here */
@@ -1125,18 +1129,18 @@ footer .mask {
     }
     .hero-section .left .lessthen {
     position: absolute;
-    left: -26px;
-    top: 77px;
-    width: 30px;
-    height: 30px;
+    left: -28px;
+    top: 70px;
+    width: 40px;
+    height: 40px;
 }
 
 .hero-section .right .morethan {
     position: absolute;
-    right: -26px;
-    top: -3px;
-    height: 30px;
-    width: 30px;
+    right: -28px;
+    top: -24px;
+    height: 40px;
+    width: 40px;
 }
 
     .hero-section .right .hour {
@@ -1155,6 +1159,24 @@ footer .mask {
 .section-one .head {
     margin: -81px auto 17px;
 }
+
+.section-one .cards .card:nth-child(5) {
+    margin: 13px auto;
+    width: 47%;
+ flex-grow: calc(0.5);
+}
+.section-two .cards .card:nth-child(5) {
+ flex-grow: calc(0);
+ width: 30%;
+}
+.section-two .cards .card:nth-child(4) .card-head img {
+    width: 100%;
+}
+.section-two .cards .card:nth-child(6) .card-head img {
+    width: 100%;
+}
+ 
+
 .section-one .cards .card .card-body h4 {
     width: 98%;
     font-size: 11px;
@@ -1249,6 +1271,7 @@ footer .rights {
 }
 footer p {
 margin: 0;
+font-size: 14px;
 }
 }
 
