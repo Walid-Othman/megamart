@@ -1935,6 +1935,13 @@ footer .mask {
         margin: 0;
         font-size: 12px;
     }
+    footer .contant .left h1 {
+    width: 217px;
+    height: 44px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 1;
+}
 }
 
 
