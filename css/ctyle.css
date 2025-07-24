@@ -44,7 +44,7 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 13px;
     color: #666666;
 }
 
@@ -426,7 +426,6 @@ height: 32px; */
 }
 
 .section-one .cards .card .card-body h4 {
-    width: 191px;
     height: 18px;
     margin-bottom: 8px;
 }
@@ -1016,6 +1015,8 @@ footer .mask {
         /* margin-top: 20px; */
         height: 60px;
         position: relative;
+        top: -20px;
+
 
     }
 
@@ -1531,11 +1532,11 @@ footer .mask {
         top: 12px;
         width: 100%;
         transition: 0.5s ease;
-   
+
     }
 
     .part-two .dropdown {
-     background-color: #ffffff;
+        background-color: #ffffff;
         display: flex;
         gap: 10px;
         height: auto;
@@ -1543,8 +1544,8 @@ footer .mask {
         margin-top: 48px;
         padding: 20px;
         flex-wrap: wrap;
-     border-radius: 0px 0px 30px 30px;
-     border-color: #008ECC;
+        border-radius: 0px 0px 30px 30px;
+        border-color: #008ECC;
     }
 
     .part-two .dropdown button {
@@ -1582,7 +1583,11 @@ footer .mask {
     .section-one .cards .card .card-body {
         text-align: center;
     }
-
+.section-one .cards .card .card-body h4 {
+    width: 100% !important;
+    height: 18px;
+    margin-bottom: 8px;
+}
     .section-two .cards .card {
         margin: 13px auto;
         width: 21%;
@@ -1592,10 +1597,10 @@ footer .mask {
         width: 49%;
         margin: 10px 0;
     }
-
-    .card-last {
-        margin: 20px 0;
-    }
+.card-last {
+    width: 27%;
+    margin: 20px 0;
+}
 
     footer {
         width: 100%;
@@ -1607,9 +1612,11 @@ footer .mask {
         height: auto !important;
     }
 
+ 
     footer .center-right {
-        display: flex;
-    }
+    display: flex;
+    gap: 40px;
+}
 
     footer .rights {
         text-align: center;
@@ -1632,14 +1639,14 @@ footer .mask {
 
 @media(max-width:477px) {
     .part-two {
-    right: -100%;
-    position: fixed;
-    top: 65px;
-    width: 100%;
-    transition: 0.5s ease;
+        right: -100%;
+        position: fixed;
+        top: 65px;
+        width: 100%;
+        transition: 0.5s ease;
 
 
-}
+    }
 
     #bar {
         display: block;
@@ -1847,13 +1854,16 @@ footer .mask {
         width: 88px;
 
     }
+
     .section-one .head button {
-    margin-right: 0px;
-}
-.section-four .cards .card-last .card-body h3 {
-   
-    font-size: 14px;
-}
+        margin-right: 0px;
+    }
+
+    .section-four .cards .card-last .card-body h3 {
+
+        font-size: 14px;
+    }
+
     .card-last {
         width: 45%;
         margin: 20px 0;
@@ -1908,7 +1918,7 @@ footer .mask {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        MARGIN-TOP: -316px;
+        MARGIN-TOP: -35px;
         margin-bottom: 20px;
         margin-right: 65px;
     }
